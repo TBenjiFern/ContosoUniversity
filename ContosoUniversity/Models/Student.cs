@@ -11,14 +11,14 @@ namespace ContosoUniversity.Models
 
         [Required]
         [StringLength(50, MinimumLength = 2)]
-        [Display(Name = "Last Name")]
+        [Display(Name = "Student Last Name")]
         [RegularExpression(@"^[A-Z]+[a-zA-Z]*$")]
         public string LastName { get; set; }
 
         [Required]
         [StringLength(50)]
         [Column("FirstName")]
-        [Display(Name = "First Name")]
+        [Display(Name = "Student First Name")]
         [RegularExpression(@"^[A-Z]+[a-zA-Z]*$")]
         public string FirstMidName { get; set; }
 

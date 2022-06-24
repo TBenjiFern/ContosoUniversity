@@ -69,3 +69,49 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Anek Latin', sans-serif;
+}
+
+p {
+    font-family: 'Bitter', serif;
+}
+
+.homeBanner {
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #9FE2BF;
+    border-radius: 10px;
+}
+
+.homeBanner h1 {
+    margin: 20px;
+}
+
+.bannerImg {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px black;
+}
+
+nav {
+    margin: auto;
+    margin-top: 10px;
+    background-color: #6AADB3;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+.navText:hover {
+    background-color: #9CCDD3;
+}
+
+footer {
+    background-color: #6AADB3;
+    text-align: center;
+}
+
+.contactMe p {
+    font-weight: bold;
+}
